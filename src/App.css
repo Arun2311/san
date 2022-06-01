@@ -1,7 +1,49 @@
-.App {
-  text-align: center;
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
+.App {
+  text-align: center;
+  height: 100vh;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  position: relative;
+  margin: a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(270deg, #051817, #0e3839);
+  height: 180px;
+  width: 360px;
+  color: #06f1f6;
+  text-shadow: 1px 1px 7px;
+  border-radius: 15px;
+  border: 2px solid silver;
+  box-shadow: 0 0 5px 25px;
+}
+
+.clock section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.clock section p {
+  font-size: 4rem;
+}
+.clock section small {
+  color: silver;
+  text-shadow: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +78,17 @@
     transform: rotate(360deg);
   }
 }
+
+.Weds{
+  display: flex;
+  justify-content: center;
+  background-color: #282c34;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: lightgreen;
+  padding-top: 5rem ;
+
+}
+
+
+
+
